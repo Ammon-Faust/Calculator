@@ -7,9 +7,9 @@ body {
 
 .calcBox {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color: hsl(0, 0%, 15%);
-    height: 600px;
+    height: 650px;
     width: 450px;
     margin: auto;
     margin-top: 200px;
@@ -25,7 +25,7 @@ body {
     width: 375px;
     border-radius: 15px;
     background-color: white;
-    margin: 45px;
+    margin: 40px 45px;
 }
 
 #input {
@@ -36,4 +36,29 @@ body {
 #sum {
     font-size: 30px;
     margin: 5px;
+}
+
+.buttons {
+    padding-left: 50px;
+    height: 375px;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+button {
+    margin: 5px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    border: outset 2px black;
+}
+
+button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+#equal {
+    width: 165px;
 }
