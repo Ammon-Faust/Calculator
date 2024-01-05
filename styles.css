@@ -55,8 +55,9 @@ button {
     border: outset 2px black;
 }
 
-button:hover {
-    background-color: rgb(221, 221, 221);
+button:active {
+    background-color: rgb(212, 212, 212);
+    
 }
 
 #equal {
