@@ -14,6 +14,12 @@ function backSpace(input) {
     display.value = currentDisplay;
 };
 
-function calculate(){
-
-}
+function calculate(input){
+    try {
+        const result = new Function('return ' + display.value)();
+        display.value = result;
+    }
+    catch(error) {
+        display.value = "Error"
+    };
+};
