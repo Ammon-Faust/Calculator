@@ -18,14 +18,12 @@ body {
 }
 
 #display {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     height: 85px;
     width: 375px;
     border-radius: 15px;
     margin: 40px 45px;
     border: none;
+    font-size: 30px;
 }
 
 #input {
