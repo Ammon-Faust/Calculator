@@ -68,3 +68,15 @@ button:active {
 #equal {
     width: 165px;
 }
+
+#right {
+    background-color: orange;
+}
+
+#right:hover {
+    background-color: hsl(39, 100%, 40%);
+}
+
+#right:active {
+    background-color: hsl(39, 100%, 50%);
+}
